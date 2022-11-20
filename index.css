@@ -84,13 +84,11 @@ footer {
 
 .githubLink{
   padding-left: 5px;
+
+  color: white;
 }
 
-.theme1{
- 
-  
-  
-}
+
 footer{
   position: sticky;
   bottom: 0;
