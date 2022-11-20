@@ -6,6 +6,11 @@ body{
 
 body{
   background-color: aquamarine;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
 }
 
 header{
@@ -16,6 +21,9 @@ header{
   top: 0;
 
   cursor: move;
+}
+main {
+  flex: 1;
 }
 header:hover {
   background-color: aquamarine;
