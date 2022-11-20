@@ -1,5 +1,30 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: aquamarine;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+
+  cursor: move;
+}
+header:hover {
+  background-color: aquamarine;
+}
+.theme1 {
+   background-color: rgb(44, 44, 44);
+
+   padding: 4px 12px;
+   color: rgb(255, 166,0);
 }
 
 .img{
@@ -53,8 +78,18 @@ footer {
   padding-left: 5px;
 }
 
-.footerEmojis{
+.theme1{
+ 
+  
+  
+}
+footer{
+  position: sticky;
+  bottom: 0;
+  
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  
 }
