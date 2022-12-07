@@ -39,7 +39,7 @@ header:hover {
   height: 250px;
   width: 250px;
 
-  border-radius: 50%;
+  border-radius:50%;
 }
 p {
   padding-left: 40px;
@@ -82,6 +82,13 @@ footer {
   font-size: 20px;
 }
 
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .githubLink{
   padding-left: 5px;
 
@@ -92,10 +99,14 @@ footer {
 footer{
   position: sticky;
   bottom: 0;
+  cursor: move;
   
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   
+}
+footer:hover {
+  background-color:aquamarine ;
 }

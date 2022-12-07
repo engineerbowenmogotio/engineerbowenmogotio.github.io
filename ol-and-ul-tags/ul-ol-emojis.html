@@ -1,29 +1,167 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>css.html</title>
+
+    <title>ol and ul codes</title>
+
     <meta charset="utf-8">
+
     <style>
+      
       body{
-        background-color: violet;
+        background-color: aquamarine;     
+      }
+
+      .theme1 {
+        color: rgb(255, 166, 0);
+        background-color: rgb(44, 44, 44);
+        padding: 4px 12px;
+        font-family: monospace;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+        cursor: move;
+        transition-duration: 500ms;
+      } 
+       
+      header:hover {
+        background-color: transparent;
+      } 
+      
+      main {
+        flex: 1;
+        cursor: crosshair;
+      }
+
+      .heading1 {
+        background-color: blueviolet;
+        text-align:center;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .paragraph1 {
+       
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+     .heading2 {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 12;
+        margin: 20px  
         
       }
+
+
+      .paragraph2 {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+      }
+
+      
+
+      .emoji {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+        
+      
+
+      .second last paragraph {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        padding: 10px;
+      }
+
+      .last paragraph {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      footer {
+        position: sticky;
+        bottom: 0;
+        cursor: move;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+        
+      }
+
+      footer:hover {
+        background-color:aquamarine;
+      }
+
+      main {
+        flex: 1;
+        cursor: crosshair;
+      }
+
     </style>
   </head>
-  <body>
-    <h1><u>This is my website.</u></h1>
-    <ul>
-      <p>😃👏🎉</p>
-      <p><u>Obout Kosi🐵</u></p>
-      <li>Kosi,our CEO and our software engineer🙌.</li>
-      </ul>
-      <p>I hope i would become a software engineer just like her👏🎉.</p>
-      
-    
-    <P><U>Names of our class students😃👏🎉.</U></P>
-    
-    <ol type="A😃👏🎉">
 
+  <body>
+
+    <header class="theme1">
+      <div>Bowen's Website</div>
+      <div>Just ol-and-ul-tags</div>
+    </header>
+
+    <h1 class="heading1"><u>
+       ✨✨THIS IS BOWEN'S WEBSITE THAT INVOLVE ORDERDED AND UNORDERED LIST.✨✨
+      </u></h1>
+   
+      <p class="paragraph1">✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+      </p>
+
+      <ul>
+      <li> 
+       I am Bowen a software engineer from Mogotio and i have been learning
+       coding at my school Zawadi through the help of <a href="https://techlitafrica.org"
+       target="_blank"> Techlit Africa. </a>
+      </li>
+    </ul>
+   
+     
+   
+    <p class="heading2"><U><b>💎💎💎 Names of our class students 💎💎💎</b></U></p>
+    
+    <ol type="1">
       <li>Bowen.</li>
       <li>Allan.</li>
       <li>Toto.</li>
@@ -36,6 +174,39 @@
       <li>Manu.</li>
       <li>Irene.</li>
     </ol>
-    <p><i>from Bowen,a grade 5 student😃👏🎉.</i></p>
-  </body>
-</html>
+
+    <ul>
+      <li>
+      I love TechLit Africa and i hope God
+      will bless the CEO and COO of Techlit Africa
+      Nelly and Tyler👏🎉
+      </li>
+    </ul> 
+    
+    <p class="emoji">
+      🇬🇧🇬🇧🇬🇧🇬🇧🇬🇧
+    </p>
+
+    <ul class="second last paragraph"><b><i>
+      <li>
+       from Bowen,a fifth grader software
+       engineer from Mogotio 🤓🤓
+      </li>  
+    </b></i></ul>
+
+    <p class="paragraph2">
+     ✨✨✨✨✨✨✨
+    </p>
+
+    <p class="last paragraph"><b>thank you</b></p>
+
+    <footer class="theme1">
+      <div>Those are names of our class students </div>
+      <div>this year 2022</div>
+
+      <h1>🎀🎀🎀🎀🎀🎀🎀🎀🎀</h1>
+      <h2>🎶🎶🎶🎶🎶🎶🎶</h6>
+    </footer>
+
+    </body>
+  </html>
