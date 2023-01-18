@@ -15,6 +15,37 @@
       justify-content: space-around;
     }
 
+    .theme1 {
+      color: rgb(255, 166, 0);
+      background-color: rgb(44, 44, 44);
+      padding: 4px 645px; 
+      font-family: monospace;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      display: flex;      
+      justify-content: space-between;
+      cursor: move;
+      transition-duration: 500ms;
+    }
+
+    header:hover {
+      background-color: transparent;      
+    }
+
+    main {
+      flex: 1;
+      cursor: crosshair;
+    }
+
     .button {
 
       font-size: 30px;
@@ -26,21 +57,88 @@
       text-decoration: none;
       
     }
-    footer {
-      padding-top: 100px;
-      
+  
+    .heading1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      padding: 16px 10px;
     }
+
+    .paragraph {
+      background-color: antiquewhite;   
+      height:20px;
+      width: 300px;
+
+      padding: 5px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .paragraph1 {
+      background-color: antiquewhite;   
+      height:20px;
+      width: 80px;
+
+      padding: 4px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer {
+      position: sticky;
+      bottom: 0;
+      cursor: move;
+
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: space-around;
+    }
+
+    footer:hover {
+      background-color: transparent;      
+    }
+
   </style>
 
 </head>
 
 <body>
+
+  <header class="theme1">
+    <div>Bowen's Website</div>
+    <div>2022</div>
+  </header>
+
   <h1><u><b><i>Flex Puzzle🏆</i></b></u></h1>
  
   <h2>↘️ Tap 🏁 to start</h2>
   <a class="button" href="./a.html">🏁🏁🏁🏁🏁🏁🏁🏁</a>
-  <footer><i>Bowen,a grade 5 software engineer 🏆 from Mogotio</i></footer>
-  <h1>🙌🙌🙌🙌🙌🙌🙌🙌</h1>
+ 
+  <h1 class="heading1">🙌🙌🙌🙌🙌🙌🙌🙌</h1>
+  <h10 class="heading1">🏆🏆🏆🏆🏆🏆🏆</h10>
+  <p><b><i>⬆️ these codes are Interactive</i></b></p>
+  <p><i>
+    Bowen,a grade 5 software 
+    engineer 🏆 from Mogotio
+  </i></p>
+
+  <p class="paragraph1">🪅🪅🪅🪅</p>
+  <p class="paragraph">🪅🪅🪅🪅🪅🪅🪅🪅🪅🪅🪅🪅🪅🪅 </p>
+  <footer class="theme1">
+ <div><b><i>Interactive Flex Puzzle</i></b></div>
+ 
+  <h2>🐒🐒🐒🐒🐒</h2>
+  </footer>
 </body>
 
 </html>

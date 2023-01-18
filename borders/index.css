@@ -6,7 +6,7 @@
   --layoutFontFamily: monospace;
   
   --contentBackgroundColor: rgb(138, 255, 239);
-  --contentColor: rgb(180, 195, 209);
+  --contentColor: rgb(0, 0, 0);
   --contentPadding: 12px;
   --contentFontFamily: verdana; 
 
@@ -122,22 +122,40 @@ padding: var(--examplePadding);
 }
 
 .ex1 * {
+  background-color: aliceblue;
   animation-name: spin;
+  border: 30px inset rgb(202, 214, 29);
   border-radius: var(--borderRadius1);
+
 }
 
 .ex2 * {
+  background-color:aliceblue;  
   animation-name: zoom;
+  border: 30px outset blueviolet;
   border-radius: var(--borderRadius2);
 }
 
 .ex3 * {
   animation-name: bounce;
+  background-image:aliceblue;
+  border: 30px groove palevioletred;
   border-radius: var(--borderRadius3);
+  
+}
+#rugbyball {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+   
 }
 
 .ex4 * {
   animation-name: pulse;
+  background-color: aliceblue;
+  border: 30px ridge rgb(155, 205, 61);
   border-radius: var(--borderRadius4);
 }
 
@@ -164,11 +182,11 @@ footer:hover{
 
 @keyframes spin {
   0% {
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: rotate(1000deg);
   }
 }
 
@@ -178,7 +196,7 @@ footer:hover{
   }
 
   10% {
-    scale: 150%;
+    scale: 2%;
   }
 }
 
@@ -207,6 +225,6 @@ footer:hover{
   }
 
   50% {
-    opacity: 25%;
+    opacity: 2%;
   }
 }
